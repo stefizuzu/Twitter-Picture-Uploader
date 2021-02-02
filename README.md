@@ -1,5 +1,5 @@
 # Twitter-Picture-Uploader
-Use Twitter API to upload picture on your Twitter profile
+Use Twitter API to upload a picture on your Twitter profile
 
 Client:
 
