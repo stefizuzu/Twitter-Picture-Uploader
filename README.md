@@ -1,12 +1,24 @@
-# LNU 304 Assignment #2 client
+# Twitter-Picture-Uploader
+Use Twitter API to upload picture on your Twitter profile
 
-## Getting Started
+SERVER:
+1.npm i   // to install all the node_modules
 
-```
-cd lnu-304-client
-npm i && HTTPS=true npm start
-```
+2.create '.env' file in the same location with the package.json file
 
-#### OS X
+3. Paste and write your data in the .env file
 
-- Add https to localhost [follow instructions](https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec).
+NODE_ENV=development
+TWITTER_TOKEN= [WRITE]
+TWITTER_TOKEN_SECRET= [WRITE]
+TWITTER_CONSUMER_KEY= [WRITE]
+TWITTER_CONSUMER_SECRET= [WRITE]
+TWITTER_BEARER_TOKEN= [WRITE]
+SESSION_SECRET= [WRITE]
+DB_CONNECTION_STRING= [WRITE]
+CALLBACK_URL='http://localhost:8080/$(provider)/callback'
+ORIGIN_URL='http://localhost:3000'
+
+
+Client:
+1.npm i   // to install all the node_modules
