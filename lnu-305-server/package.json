@@ -1,0 +1,38 @@
+{
+  "name": "lnu-305-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect index.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.19.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-twitter": "^1.0.4",
+    "socket.io": "^3.0.4",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  },
+  "author": "Stephanie Ciobanu",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
