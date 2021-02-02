@@ -1,7 +1,12 @@
 # Twitter-Picture-Uploader
 Use Twitter API to upload picture on your Twitter profile
 
+Client:
+
+1.npm i   // to install all the node_modules
+
 SERVER:
+
 1.npm i   // to install all the node_modules
 
 2.create '.env' file in the same location with the package.json file
@@ -27,8 +32,3 @@ DB_CONNECTION_STRING= [WRITE]
 CALLBACK_URL='http://localhost:8080/$(provider)/callback'
 
 ORIGIN_URL='http://localhost:3000'
-
-
-
-Client:
-1.npm i   // to install all the node_modules
