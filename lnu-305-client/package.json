@@ -1,0 +1,40 @@
+{
+  "name": "lnu-304-client",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "dev": "HTTPS=true craco start",
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
+  },
+  "engines": {
+    "node": "12.16.2"
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.7.0",
+    "@semantic-ui-react/craco-less": "^1.2.1",
+    "semantic-ui-less": "^2.4.1"
+  },
+  "dependencies": {
+    "apisauce": "^1.1.2",
+    "bootstrap": "^4.6.0",
+    "classnames": "^2.2.6",
+    "dayjs": "^1.9.4",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.13.1",
+    "react-fontawesome": "^1.7.1",
+    "react-images-upload": "^1.2.8",
+    "react-query": "^2.23.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-simply-carousel": "^2.1.9",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.0",
+    "socket.io-client": "^3.0.4"
+  },
+  "author": "Mihai Rosca",
+  "license": "MIT"
+}
